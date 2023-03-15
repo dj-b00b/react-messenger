@@ -1,0 +1,36 @@
+.user_avatar {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name {
+    color: #fcf9fd;
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.latest_activity {
+    color: #c590d4;
+    font-size: 19.5px;
+    margin: 0;
+}
+
+.user_avatar img {
+    margin-right: 20px;
+    font-size: 95px;
+}
+
+.user_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user_info {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

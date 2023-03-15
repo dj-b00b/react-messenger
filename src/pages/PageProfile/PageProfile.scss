@@ -1,0 +1,39 @@
+.user_info_fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.editable_fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user_avatar_change {
+    margin-top: 30px;
+    
+}
+
+.edit_photo {
+    position: absolute;
+    justify-content: center;
+    top: 170px;
+    left: calc(50% - 15px)
+
+}
+
+.edit_photo:active {
+    color:red;
+    transition: 1s;
+    animation: blinker 0.5s linear;
+}
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+}
+
+
+
+

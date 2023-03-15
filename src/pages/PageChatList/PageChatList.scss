@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    background-color: #fff;
+    font-size: 15px;
+    font-family: 'Bahnschrift', sans-serif;
+}
+
+.chats {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 110px);
+}
+
+.a {
+    color: black;
+}
